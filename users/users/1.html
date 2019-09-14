@@ -5,21 +5,33 @@
   <title>user 1</title>
   <meta name="description" content="FIRST USER">
   <meta name="author" content="VITALYA">
+  <link rel="stylesheet" href="./../../stylesheets/style.css">
+
 </head>
 <body>
     
-    <ul>
-        <li> <button onclick="window.location.href = './../../index.html';">Home</button></li>
-        <li> <button onclick="window.location.href = './../users.html';">Users</button></li>
-        <li> <button onclick="window.location.href = './../../user_stories/user_stories.html';">User stories</button></li>
-        <li><button onclick="window.location.href = './../../about.html';">About</button></li>
-    </ul>
-    
-    <!-- <h1>Welcome!</h1>
-        <p>This is my first web-page!</p> -->
-        <img src="./../../images/users/1.jpg"> 
 
-  <table>
+        <div  class="logo_name" >
+                <h1>ScrumMaster</h1>
+              </div>
+            
+              <div class="logo"  >
+                <img src="./../../images/logo.png">
+              </div>
+              <div class = "list_main">
+                <ul>
+                    <!-- <a href="./about.html">About</a> -->
+                  <li> <a href="./../../index.html"><h1>Home</h1></a></li>
+                  <li> <a href="./../users.html"><h1> Users</h1></a></li>
+                  <li> <a href="./../../user_stories/user_stories.html"><h1> User stories</h1></a> </li>
+                  <li> <a href="./../../about.html"><h1> About</h1></a></li>
+                </ul>
+              </div>
+  
+   
+        <img class="Bio_Photo" src="./../../images/users/1.jpg" height="400" width="300"> 
+
+  <table   border="1" class="User_table">
         <caption></caption>
         <tr> 
             <th>Login</th>
@@ -28,10 +40,18 @@
         </tr>
         <tr>
             <td>User1</td>
-            <td>Danil</td>
-            <td>23.02.1999</td>
+            <td>Linus Torvald</td>
+            <td>23.02.1999 14:00:34</td>
         </tr>
     </table>
-    
+    <p>Linus Benedict Torvalds  is a Finnish-American software engineer who is the creator and, historically,
+         the principal developer of the Linux kernel, which is the kernel for Linux operating systems (distributions) 
+         and other operating systems such as Android and Chrome OS. He also created the distributed version control system 
+         Git and the scuba dive logging and planning software Subsurface.
+
+            He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize
+             by the Technology Academy Finland "in recognition of his creation of a new open source 
+             operating system for computers leading to the widely used Linux kernel." He is also the
+              recipient of the 2014 IEEE Computer Society Computer Pioneer Award and the 2018 IEEE Masaru Ibuka Consumer Electronics Award.</p>
 </body>
 </html>

@@ -5,38 +5,55 @@
   <title>user 1</title>
   <meta name="description" content="FIRST USER">
   <meta name="author" content="VITALYA">
+  <link rel="stylesheet" href="./../stylesheets/style.css">
+
 </head>
 <body>
+                <div  class="logo_name" >
+                                <h1>ScrumMaster</h1>
+                              </div>
+                            
+                              <div class="logo"  >
+                                <img src="./../images/logo.png">
+                              </div>
+        <div class="list_main">
         <ul>
-               <li> <button onclick="window.location.href = './../index.html';">Home</button></li>
-               <li> <button onclick="window.location.href = './users.html';">Users</button></li>
-               <li> <button onclick="window.location.href = './../user_stories/user_stories.html';">User stories</button></li>
-               <li><button onclick="window.location.href = './../about.html';">About</button></li>
+               <li> <a href = './../index.html'><h1>Home</h1></a></li>
+               <li> <a href = './users.html'><h1> Users</h1></a></li>
+               <li> <a href = './../user_stories/user_stories.html'><h1> User stories</h1></a></li>
+               <li> <a href = './../about.html'><h1> About</h1></a></li>
         </ul>
+</div >
+<div class = "users_table">
 
-  <h1>Users</h1>
-  <!-- <p>This is my first web-page!</p> -->
-
-  <!-- <table>
-        <caption></caption>
-      
-        <tr>
-                <button onclick="window.location.href = './users/1.html';">USer1</button>
-
-        </tr>
-        <tr>
-                <button onclick="window.location.href = './users/2.html';">User2</button>
-
-        </tr>
-    </table> -->
-
-    <ol type="1">
-                <li><button onclick="window.location.href = './users/1.html';">User1</button></li>
-                <li><button onclick="window.location.href = './users/2.html';">User2</button></li>
-                <li><button onclick="window.location.href = './users/3.html';">User3</button></li>
-
-              </ol>
               
+              <table border="2">
+                <caption><h1>Users</h1></caption>
+                <tr> 
+                        <th>Login</th>
+                        <th>Name</th>
+                        <th>RegDay</th>
+                </tr>
+               
+               
+                <tr>
+                        <td><button onclick="window.location.href = './users/1.html';">User1</button></td>
+                        <td>Linus Torvald</td>
+                        <td>23.02.1999 14:00:34</td>
+                </tr>
+        
+                <tr>
+                        <td><button onclick="window.location.href = './users/2.html';">User2</button></td>
+                        <td>Larry Page</td>
+                        <td>23.02.2001 14:00:56</td>
+                </tr>
+                <tr>
+                         <td><button onclick="window.location.href = './users/3.html';">User3</button></td>
+                        <td>Andriy</td>
+                        <td>23.02.2005 19:45:59</td>
+                </tr>
+        </table>
+</div>
     
 </body>
 </html>

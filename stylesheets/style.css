@@ -1,0 +1,101 @@
+body {
+    background-color: whitesmoke;
+  }
+  h1 {
+    color: lightslategray;
+  }
+
+  .logo{
+    position: absolute;
+    left:250px;
+    right: 1000px;
+
+    /* margin: 75px; */
+    padding: 20px;
+    vertical-align: text-top;
+    text-align: center;  
+    /* border: 3px solid #73AD21; */
+  }
+  .logo_name
+  {
+      position: absolute;
+      left: 500px;
+        right: 250px;
+
+      top: 0px;
+      bottom: 700px;
+      vertical-align: text-top;
+      text-align: center;  
+      font-size: 400%;
+       /* margin-left: 250px; */
+      /* margin: 75px; */
+    padding: 20px;
+  }
+  p
+  {
+    color: black;
+    position: absolute;
+        left: 800px;
+        right: 250px;
+      top: 350px;
+      text-align: center;
+    
+    font-size: 25px
+  }
+
+  .list_main{
+    position: absolute;
+    vertical-align: text-top;
+    right: 1000px;
+    left:250px;
+    top: 250px;
+  }
+  
+  .gen{
+      width: 1200px;
+  }
+
+  .users_table
+  {
+    position: absolute;
+    right:200px;
+    left:900px;
+    top: 300px; 
+  }
+
+  .about_table
+  {
+    position: absolute;
+    left: 800px;
+    right: 250px;
+  top: 400px;
+  text-align: right;
+font-size: 25px
+  }
+  .Bio_Photo
+  {
+    position: absolute;
+    top: 250px;
+    left: 470px;
+  }
+  .User_table{
+    color: black;
+    position: absolute;
+        left: 800px;
+        right: 250px;
+      top: 300px;
+      text-align: center;
+    
+    font-size: 25px
+  }
+  .user_story
+  {
+    color: black;
+    position: absolute;
+        left: 800px;
+        right: 250px;
+      top: 300px;
+      text-align: center;
+    
+    font-size: 25px
+  }
