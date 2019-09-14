@@ -27,8 +27,6 @@ body {
       vertical-align: text-top;
       text-align: center;  
       font-size: 400%;
-       /* margin-left: 250px; */
-      /* margin: 75px; */
     padding: 20px;
   }
   p
@@ -53,6 +51,7 @@ body {
   
   .gen{
       width: 1200px;
+      height: 1200px;
   }
 
   .users_table
